@@ -10,6 +10,7 @@ public class PollsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("test");
 	}
 
 }
