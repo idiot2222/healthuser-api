@@ -17,7 +17,9 @@ public class UserDto {
     private String password;
     private String email;
     private Date birthDate;
+
     private Gender gender;
+    private UserRole userRole;
 
     private List<Long> userOwnCourses;
 
