@@ -1,4 +1,4 @@
-package com.pps.health.model;
+package com.pps.data;
 
 public enum Gender {
     MALE, FEMALE
