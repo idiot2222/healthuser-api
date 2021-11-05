@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+import java.util.List;
 
 @Getter
 @Setter
@@ -17,5 +18,7 @@ public class UserDto {
     private String email;
     private Date birthDate;
     private Gender gender;
+
+    private List<Long> userOwnCourses;
 
 }
