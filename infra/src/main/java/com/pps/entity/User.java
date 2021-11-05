@@ -33,10 +33,10 @@ public class User {
     private UserRole userRole;
 
     @OneToMany(mappedBy = "user")
-    private List<UserOwnCourse> userOwnCourses = new ArrayList<>();
+    private final List<UserOwnCourse> userOwnCourses = new ArrayList<>();
 
     @Builder
-    public User(Long id, String name, String username, String password, String email, Date birthDate, Gender gender, UserRole userRole, List<UserOwnCourse> userOwnCourses) {
+    public User(Long id, String name, String username, String password, String email, Date birthDate, Gender gender, UserRole userRole) {
         this.id = id;
         this.name = name;
         this.username = username;
@@ -45,7 +45,6 @@ public class User {
         this.birthDate = birthDate;
         this.gender = gender;
         this.userRole = userRole;
-        this.userOwnCourses = userOwnCourses;
     }
 
     public UserDto convertToUserDto() {
