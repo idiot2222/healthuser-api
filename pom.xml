@@ -6,7 +6,10 @@
 	<groupId>com.pps</groupId>
 	<artifactId>health</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>domain</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>healthuser</name>
 	<description>HealthSystem App built with Spring Boot, Spring Security, MySQL and JWT</description>
