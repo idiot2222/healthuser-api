@@ -9,7 +9,8 @@
 	<modules>
 		<module>domain</module>
 		<module>infra</module>
-	</modules>
+        <module>app</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>healthuser</name>
